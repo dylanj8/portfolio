@@ -30,8 +30,15 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-evenly pt-6 max-w-[200px] w-full">
-            <FaLinkedin size={20} className="cursor-pointer" />
-            <FaGithub size={20} className="cursor-pointer" />
+            <a
+              href="https://www.linkedin.com/in/dylan-j-983781274/"
+              target="_blank"
+            >
+              <FaLinkedin size={20} className="cursor-pointer" />
+            </a>
+            <a href="https://github.com/dylanj8" target="_blank">
+              <FaGithub size={20} className="cursor-pointer" />
+            </a>
             <FaTwitterSquare size={20} />
           </div>
         </div>
