@@ -8,11 +8,7 @@ const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1 className="text-4xl text-center font-bold text-gray-800">Projects</h1>
-      <p className="text-center py-8">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
-        necessitatibus fugit ut consequatur enim incidunt. Ipsa distinctio
-        voluptates beatae aliquam animi ratione asperiores pariatur ducimus.
-      </p>
+      <p className="text-center py-8">Here are a few of my projects</p>
       <div className="grid sm:grid-cols-2 gap-12 md:grid-cols-3">
         <ProjectItem
           img={dadeatsimage}
