@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import { RxHamburgerMenu, RxResume } from "react-icons/rx";
+import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineHome, AiOutlineProject, AiOutlineMail } from "react-icons/ai";
 
 const Navbar = () => {
